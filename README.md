@@ -1,4 +1,4 @@
-# Chainlink Truffle Box
+# Mega_Link - a simple and intuitive application using Chainlink
 
 <br/>
 <p align="center">
@@ -27,26 +27,16 @@ mkdir MyChainlinkProject
 cd MyChainlinkProject/
 ```
 
-3. Unbox
+3. Copy from Repossitory
 
 ```bash
-truffle unbox smartcontractkit/box
+git clone xxxx
 ```
 
 4. Install dependencies by running:
 
 ```bash
 npm install
-
-# OR...
-
-yarn install
-```
-
-## Test
-
-```bash
-npm test
 ```
 
 ## Deploy
@@ -54,24 +44,10 @@ npm test
 For deploying to the kovan network, Truffle will use `truffle-hdwallet-provider` for your mnemonic and an RPC URL. Set your environment variables `$RPC_URL` and `$MNEMONIC` before running:
 
 ```bash
-npm run migrate:kovan
-```
+export RPC_URL='https://kovan.infura.io/v3/YOUR_PROJECT_ID'
+export MNEMONIC='YOUR_12_SECRET_METAMASK'
 
-You can also run:
-
-```bash
 truffle migrate --network kovan --reset
-```
-If you want to use truffle commands.
-
-### Local Blockchain
-
-> :warning: Without a Chainlink node deployed locally, requests from smart contracts will not be responded to. We recommend you deploy to the Kovan network
-
-If needed, edit the `truffle-config.js` config file to set the desired network to a different port. It assumes any network is running the RPC port on 8545.
-
-```bash
-npm run migrate:dev
 ```
 
 ## Helper Scripts
