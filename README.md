@@ -3,7 +3,7 @@
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="https://raw.githubusercontent.com/smartcontractkit/box/master/box-img-lg.png" width="225" alt="Chainlink Truffle logo">
+<img src="/home/luisca/Pictures/2021-05-28_16-15.png" width="225" alt="Chainlink logo">
 </a>
 </p>
 <br/>
