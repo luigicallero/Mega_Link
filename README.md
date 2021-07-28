@@ -1,4 +1,5 @@
 # Mega_Link - a simple and intuitive application using Chainlink running on Polygon (previously Matic)
+-Awarded by Chainlink in Hackathon 0XHACK 2021: https://blog.chain.link/0xhack-2021-chainlink-bounty-winners/
 
 ## Comments
 This project is based on the chainlink_defi project:
